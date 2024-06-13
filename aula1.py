@@ -1,8 +1,3 @@
-"""
-O aluno matheus teve a primeira nota 2, a segunda nota 3 e a nota final 5
-
-"""
-
 nome = "matheus"
 n1 = 2
 n2 = 3
