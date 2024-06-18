@@ -14,7 +14,7 @@ facilitadores = {"vini" , "matheus" , "michelle" , "ryan"}
 print(facilitadores)
 
 #dicionario
-dicionario ={
-    "nome": = "vini"
-    "idade": = 28
-}
+#dicionario ={
+#    "nome": = "vini"
+#   "idade": = 28
+#}
