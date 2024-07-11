@@ -4,20 +4,14 @@ from faker import Faker
 
 fake = Faker('pt_BR')
 
-username = fake.user_name()
-email = fake.email()
-password = fake.password()
-telefone = fake.phone_number()
-endereco = fake.address()
-cpf = fake.cpf()
 
 user_data = {
-    "username": username,
-    "email": email,
-    "password": password,
-    "phone": telefone,
-    "address": endereco,
-    "cpf": cpf
+    "username":fake.user_name(),
+    "email": fake.email(),
+    "password":fake.password() ,
+    "phone": fake.phone_number(),
+    "address": fake.address(),
+    "cpf": fake.cpf()
 }
 
 print (user_data)
