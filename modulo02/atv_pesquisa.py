@@ -24,8 +24,6 @@ for result in result_search:
     if "Instituto Joga Junto" in result.text:
         result.click()
         break
-time.sleep(5)
-
 
 field_name = browser.find_element(By.NAME, 'name').send_keys('Matheus Munhoz')
 field_email = browser.find_element(By.NAME, 'email').send_keys('matheusmunhoz35@gmail.com')
