@@ -19,6 +19,6 @@ checkbox = browser.find_elements(By.TAG_NAME, "input")
 for checkbox in checkbox:
     checkbox.click()
 
-time.sleep(5)
+time.sleep(7)
 
 browser.quit
